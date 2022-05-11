@@ -172,4 +172,7 @@
 
     <!-- Enforce DisplayModeDirector to select user preferred resolution -->
     <bool name="config_forceToUseSelectedResolution">false</bool>
+
+   <!-- These are system packages exempted from privacy indicator -->
+    <string-array name="config_indicatorExemptedPackageNames" translatable="false" />
 </resources>
